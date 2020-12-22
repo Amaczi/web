@@ -1,0 +1,97 @@
+/** ---------------------------------------------------- **/
+
+/** MAIN **/
+
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #262523;
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	width: 100vw;
+	height: 100vh;
+}
+
+/** MAIN END **/
+
+/** ---------------------------------------------------- **/
+
+#login{
+	border: solid 1px white;
+	height: 398px;
+	width: 348px;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+  	border-radius: 10px;
+}
+
+#login img{
+	max-width: 250px;
+	max-height: 150px;
+
+}
+
+form{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+}
+
+.duo{
+	background-color: rgba(1, 1, 1, 0.0);
+	border-radius: 5px;
+	height: 36px;
+	width: 186px;
+	color: white;
+	padding: 0px 5px;
+	margin: 0;
+	font-size: 20px;
+}
+
+#sub{
+	background-color: rgba(39, 174, 96,0.0);
+	border: solid 1px white;
+	border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#login label{
+	font-size: 24px;
+	letter-spacing: 1px;
+	height: 35px;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+	text-align: center;
+}
+
+#login input{
+	border: solid 2px white;
+	outline-width: 0;
+	margin-bottom: 20px;
+}
+
+
+#login input:hover{
+	border: solid 2px rgba(69, 170, 242,0.8);
+	cursor: pointer;
+}
+
+#login input:focus{
+	border: solid 2px rgba(69, 170, 242,1.0);
+}
+
+
+
